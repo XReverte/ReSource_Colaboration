@@ -5,48 +5,79 @@
 - Survey.ipynb --> Sample code used for the study
 - Labeler.ipynb --> Sample code used for labeling participants
 
+**Imagen desruralización**
+
 ## Motivation
-El proyecto surge de una profunda preocupación por el fenómeno de la despoblación rural que afecta a numerosas comunidades en todo el mundo. Observamos con inquietud cómo estas áreas, que alguna vez fueron prósperas y llenas de vida, están experimentando un éxodo masivo de población, dejando tras de sí un vacío socioeconómico y cultural que amenaza su supervivencia.
+The project arises from a **deep concern about the phenomenon of rural depopulation** affecting numerous communities worldwide. We observe with unease how these areas, which were once prosperous and vibrant, are experiencing a massive exodus of population, leaving behind a socio-economic and cultural void that threatens their survival.
 
-Esta preocupación no solo radica en el impacto inmediato en la calidad de vida de los habitantes rurales, sino también en la pérdida de recursos humanos, tradiciones arraigadas y la disminución de la diversidad cultural, enfrentándonos a la posibilidad de perder un patrimonio invaluable, moldeado a lo largo de generaciones.
+This concern not only lies in the immediate impact on the quality of life of rural inhabitants but also in the loss of human resources, deeply rooted traditions, and the decline of cultural diversity, facing us with the possibility of **losing an invaluable heritage**, shaped over generations.
 
-Motivado por el deseo de abordar este desafío, decidí unirme al proyecto Re-Source, un equipo multidisciplinario comprometido a afrontar esta circunstancia desde diversas perspectivas, tratando de sensibilizar y concienciar sobre la problemática, fomentando el pensamiento crítico para idear soluciones sostenibles y efectivas.
+Motivated by the desire to address this challenge, I decided to join the Re-Source project, a **multidisciplinary team committed to confronting this circumstance from various perspectives**, aiming to raise awareness about the issue, fostering critical thinking to devise sustainable and effective solutions.
+
+**Logo resource**
 
 ## Goals
-El proyecto Re-Source tiene como objetivo principal crear un espacio de encuentro e intercambio para todas aquellas personas interesadas en abordar el fenómeno de la despoblación rural. A través de una serie de conferencias impartidas por expertos de diferentes campos, se busca ofrecer una visión integral de la problemática, fomentando el debate y la participación activa de los asistentes.
+The Re-Source project aims to create a **space for meeting and exchange** for all those interested in addressing the phenomenon of rural depopulation. Through a series of conferences led by experts from different fields, the project seeks to provide a comprehensive understanding of the issue, fostering debate and active participation among attendees.
 
-Además, después de identificar y comprender las complejas dinámicas detrás de este fenómeno, se trata de impulsar la creación de estrategias inclusivas y sostenibles que promuevan el desarrollo económico, social y cultural de las comunidades rurales en riesgo de despoblación. Para ello, se llevan a cabo sesiones prácticas en las que los participantes trabajan en grupos para identificar y diseñar soluciones adaptadas a las necesidades específicas de cada pueblo.
+Furthermore, after identifying and understanding the complex dynamics behind this phenomenon, the project aims to drive the creation of inclusive and sustainable strategies to promote the economic, social, and cultural development of rural communities at risk of depopulation. To achieve this, practical sessions are conducted where participants work in groups to **identify and design solutions tailored to the specific needs of each village**.
 
-De este modo, a demás de lograr una asignación de pueblos óptima, lograr también una segmentación que propície un mayor entendimiento entre los integrantes de un mismo grupo, y una diversidad de opiniones a la hora de poner en común el trabajo de cada equipo.
+As part of this process, my personal objective is to **develop an effective methodology for segmenting participants** into working groups and assigning villages according to their preferences. This segmentation not only aims to facilitate optimal distribution based on group interests, promoting greater understanding among members, but also seeks intergroup diversity of perspectives, thus enriching the collaboration process and the quality of proposed solutions.
 
-Como parte de este proceso, mi objetivo personal es desarrollar una metodología efectiva para segmentar a los participantes en grupos de trabajo, asignándoles pueblos acorde a sus preferencias. Esta segmentación no solo busca facilitar una distribución óptima en cuanto a los intereses de grupo, promoviendo un mayor entendimiento entre los integrantes, sinó también buscar una diversidad intergrupal de perspectivas, enriqueciendo así el proceso de colaboración y la calidad de las soluciones propuestas.
+Furthermore, in my role as a happiness researcher, I contribute to the project by providing insights and reflections on **how to address rural depopulation from a perspective focused on the well-being** and quality of life of its inhabitants.
 
-Además, en mi rol como investigador de la felicidad, contribuyo al proyecto ofreciendo insights y reflexiones sobre cómo abordar la despoblación rural desde una perspectiva centrada en el bienestar y la calidad de vida de sus habitantes.
+![resource_4](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/8999a1ae-a1c9-4130-96f1-7fe6fdf3c2e7)
 
 ## Methodology
-Iniciamos la metodología con el diseño de una encuesta que trate de captar las preferencias de los encuestados a la hora de caracterizar el pueblo ideal en el que quisieran vivir, teniendo en cuenta preguntas como la temperatura, clima, zona geográfica y población, a demás de otras que tratan de crear un perfil personal del encuestado.
+Our methodology begins with the **design of a carefully crafted survey** to capture respondents' preferences regarding the characteristics of the ideal village they would like to live in. These questions cover aspects such as climate, geography, population, and other relevant factors, as well as gathering information to create a personalized profile of each respondent.
 
-La encuesta fué respondida por cerca de 100 encuestados ajenos al proyecto.
+The survey was distributed and **completed by approximately 100 external participants**, providing a representative and diverse sample of opinions.
 
-Una vez adecuado el conjunto de datos, nos preparamos para su clusterización mediante k-means. Identificamos el número óptimo de grupos con métodos como Elbow y Silhouette, así como el ajuste de hiperparámetros mediante gridsearch. 
+Once the dataset was collected and prepared, we proceeded to cluster it using **k-means**. We identified the optimal number of clusters using methods such as Elbow and Silhouette, and fine-tuned the model's hyperparameters using techniques such as grid search to optimize its performance.
 
-Posteriormente, empleando un modelo de Gradient Boosting, encontramos la importancia de características en la predicción del grupo al que pertenece cada encuestado.
+Subsequently, we employed a **Gradient Boosting model to determine the importance of features in predicting the group** to which each respondent belongs. This process was conducted iteratively, continuously refining the model through feature selection and engineering techniques to enhance its predictive capability.
 
-Éste se trata de un proceso iterativo de mejora contínua, en el que se evalúa cómo varía el rendimiento del modelo en la predicción después de procesos de feature selection y feature engineering.
+Once the clustering architecture was established, we conducted **statistical analysis to identify significant differences between groups**, allowing us to characterize them and facilitate the optimal assignment of villages to each group.
 
-Luego de tener la arquitectura de clusterización seleccionada, continuamos con un análisis estadístico de diferencias significativas entre grupos, permitiéndonos la caracterización de grupos para facilitar una óptima elección de pueblos a asignar a cada grupo.
+Finally, project participants were invited to complete the same survey, enabling us to **predict their group membership** based on distances to centroids and assign them to the corresponding groups accurately and precisely.
 
-En última instáncia, pedimos a los participantes del proyecto que respondan la misma encuesta, permitiendo predecir a qué grupo pertenece a partir de las distancias de centroides, asignándolos a los grupos adecuados.
+![pipeline3](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/c422e484-f1e7-4e24-b6f5-6d783b1bdeeb)
 
 ## Results and conclusions
+Based on the project's work dynamics and considering that the appropriate number of groups should fall between 3 and 5, we decided to set k=4 as the number of groups, although this choice was not the most optimal.
+
+It is important to highlight that, according to the analysis conducted using Gradient Boosting, the variables that demonstrated the greatest importance in predicting the groups were: whether the village was coastal or not, preference for outdoor activities, and a variable derived from feature engineering techniques that attempted to determine the preferred demographic volume based on various factors.
+
+**importancia**
+
+Upon performing an analysis of significant differences between the groups, each group was characterized as follows:
+- Group 1: Low population, located in mountainous areas, with adventure activities.
+- Group 2: Large population, situated in forested areas.
+- Group 3: Low population, located in rural areas, with spiritual activities.
+- Group 4: Large population, located in coastal areas, with beach-related activities.
+
+These results provide a detailed understanding of group preferences, allowing for an informed allocation of villages tailored to the specific needs of each group.
+
+![Población](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/14b70673-276a-4feb-9b11-365f13f8c58c)
+
+![Zona](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/e9c414a7-d99f-4145-806d-1fc5574b695d)
+
+![PerfilPersonal](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/a45a385f-e56c-415d-8e1f-98912c77ca08)
 
 ## Limitations
+The sample size of approximately 100 respondents could be considered limited in representing the diversity of preferences and characteristics of all rural communities affected by depopulation.
 
-## Future work
+There is a possibility of bias in the results as the participants may not be entirely representative of the target population.
+
+Although we aimed for a thorough analysis, the interpretation of the results may be subject to different interpretations and may not fully capture the complexity and variability of preferences and characteristics of rural communities.
 
 ## Contributions
+The project contributed to raising awareness within the community about the issue of rural depopulation, fostering debate and reflection on possible solutions.
+
+Through conferences and practical activities, critical thinking was promoted among participants, stimulating the generation of innovative and sustainable ideas to address the issue.
+
+The project brought together professionals from different fields and disciplines, facilitating the exchange of knowledge and perspectives to address rural depopulation from diverse and complementary approaches.
 
 ## Tools
 - Technologies: Python | Excel | Google Forms | Coogle
 - Libraries: numpy | pandas | matplotlib | seaborn | graphviz | sklearn | scipy | statsmodels | skmultilearn | xgboost | prince | itertools
-- Machine Learning Models: K-Means | Decission Tree | Random Forest | Gradient Boosting | Extreme Gradient Boosting | Support Vector Machine | Linear Regression | Ensemble approach
+- Machine Learning Models: K-Means | Gradient Boosting 
