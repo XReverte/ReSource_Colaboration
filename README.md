@@ -44,9 +44,9 @@ Finally, project participants were invited to complete the same survey, enabling
 ![pipeline3](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/c422e484-f1e7-4e24-b6f5-6d783b1bdeeb)
 
 ## Results and conclusions
-Based on the project's work dynamics and considering that the appropriate number of groups should fall between 3 and 5, we decided to set k=4 as the number of groups, although this choice was not the most optimal.
+Based on the project's work dynamics and considering that the appropriate number of groups should fall between 3 and 5, we decided to **set k=4 as the number of groups**, although this choice was not the most optimal.
 
-It is important to highlight that, according to the analysis conducted using Gradient Boosting, the variables that demonstrated the greatest importance in predicting the groups were: whether the village was coastal or not, preference for outdoor activities, and a variable derived from feature engineering techniques that attempted to determine the preferred demographic volume based on various factors.
+It is important to highlight that, according to the analysis conducted using Gradient Boosting, the variables that demonstrated the greatest importance in predicting the groups were: **whether the village was coastal or not**, **preference for outdoor activities**, and a variable derived from feature engineering techniques that attempted to determine the preferred **demographic volume** based on various factors.
 
 ![importance](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/e301e1f9-946d-4bae-ad1e-9839f62e3b27)
 
@@ -56,7 +56,7 @@ Upon performing an analysis of significant differences between the groups, each 
 - Group 3: Low population, located in rural areas, with spiritual activities.
 - Group 4: Large population, located in coastal areas, with beach-related activities.
 
-These results provide a detailed understanding of group preferences, allowing for an informed allocation of villages tailored to the specific needs of each group.
+These results provide a detailed understanding of group preferences, allowing for an **informed allocation of villages** tailored to the specific needs of each group.
 
 ![Población](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/14b70673-276a-4feb-9b11-365f13f8c58c)
 
@@ -65,18 +65,18 @@ These results provide a detailed understanding of group preferences, allowing fo
 ![PerfilPersonal](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/a45a385f-e56c-415d-8e1f-98912c77ca08)
 
 ## Limitations
-The sample size of approximately 100 respondents could be considered limited in representing the diversity of preferences and characteristics of all rural communities affected by depopulation.
+The sample size of approximately 100 respondents could be considered **limited in representing the diversity** of preferences and characteristics of all rural communities affected by depopulation.
 
-There is a possibility of bias in the results as the participants may not be entirely representative of the target population.
+There is a possibility of bias in the results as the participants **may not be entirely representative** of the target population.
 
-Although we aimed for a thorough analysis, the interpretation of the results may be subject to different interpretations and may not fully capture the complexity and variability of preferences and characteristics of rural communities.
+Although we aimed for a thorough analysis, the interpretation of the results may be subject to different interpretations and **may not fully capture the complexity and variability of preferences and characteristics of rural communities**.
 
 ## Contributions
-The project contributed to raising awareness within the community about the issue of rural depopulation, fostering debate and reflection on possible solutions.
+The project contributed to **raising awareness** within the community about the issue of rural depopulation, fostering debate and reflection on possible solutions.
 
-Through conferences and practical activities, critical thinking was promoted among participants, stimulating the generation of innovative and sustainable ideas to address the issue.
+Through conferences and practical activities, critical thinking was promoted among participants, stimulating the generation of **innovative and sustainable ideas to address the issue**.
 
-The project brought together professionals from different fields and disciplines, facilitating the exchange of knowledge and perspectives to address rural depopulation from diverse and complementary approaches.
+The project brought together professionals from different fields and disciplines, facilitating the **exchange of knowledge and perspectives** to address rural depopulation from diverse and complementary approaches.
 
 ## Tools
 - Technologies: Python | Excel | Google Forms | Coogle
