@@ -5,7 +5,8 @@
 - Survey.ipynb --> Sample code used for the study
 - Labeler.ipynb --> Sample code used for labeling participants
 
-**Imagen desruralización**
+![_e6aee582-4ef0-4fbd-893b-c5d9b250a457](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/56f41157-da3c-4411-aa9c-bae92fb4fe6a)
+*Imagen generada por Microsoft Bing (2023). graphic_art [1.0]*
 
 ## Motivation
 The project arises from a **deep concern about the phenomenon of rural depopulation** affecting numerous communities worldwide. We observe with unease how these areas, which were once prosperous and vibrant, are experiencing a massive exodus of population, leaving behind a socio-economic and cultural void that threatens their survival.
@@ -14,7 +15,7 @@ This concern not only lies in the immediate impact on the quality of life of rur
 
 Motivated by the desire to address this challenge, I decided to join the Re-Source project, a **multidisciplinary team committed to confronting this circumstance from various perspectives**, aiming to raise awareness about the issue, fostering critical thinking to devise sustainable and effective solutions.
 
-**Logo resource**
+![ReSource](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/71bfa9da-194f-4973-82f8-6b55720c7750)
 
 ## Goals
 The Re-Source project aims to create a **space for meeting and exchange** for all those interested in addressing the phenomenon of rural depopulation. Through a series of conferences led by experts from different fields, the project seeks to provide a comprehensive understanding of the issue, fostering debate and active participation among attendees.
@@ -47,7 +48,7 @@ Based on the project's work dynamics and considering that the appropriate number
 
 It is important to highlight that, according to the analysis conducted using Gradient Boosting, the variables that demonstrated the greatest importance in predicting the groups were: whether the village was coastal or not, preference for outdoor activities, and a variable derived from feature engineering techniques that attempted to determine the preferred demographic volume based on various factors.
 
-**importancia**
+![importance](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/e301e1f9-946d-4bae-ad1e-9839f62e3b27)
 
 Upon performing an analysis of significant differences between the groups, each group was characterized as follows:
 - Group 1: Low population, located in mountainous areas, with adventure activities.
