@@ -13,9 +13,9 @@ The project arises from a **deep concern about the phenomenon of rural depopulat
 
 This concern not only lies in the immediate impact on the quality of life of rural inhabitants but also in the loss of human resources, deeply rooted traditions, and the decline of cultural diversity, facing us with the possibility of **losing an invaluable heritage**, shaped over generations.
 
-Motivated by the desire to address this challenge, I decided to join the Re-Source project, a **multidisciplinary team committed to confronting this circumstance from various perspectives**, aiming to raise awareness about the issue, fostering critical thinking to devise sustainable and effective solutions.
-
-![ReSource](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/71bfa9da-194f-4973-82f8-6b55720c7750)
+Motivated by the desire to address this challenge, I decided to join the Re-Source project, a **multidisciplinary team committed to confronting this circumstance from various perspectives**, aiming to raise awareness about the issue, fostering critical thinking to devise sustainable and effective solutions. I invite you to take a look at the project through:
+Instagram: https://www.instagram.com/_re.source/
+Youtube: https://www.youtube.com/@resource.community
 ![resource](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/3f1a7f55-86db-4a0e-80b1-f9a733dc3a9c)
 
 
