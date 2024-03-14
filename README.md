@@ -16,6 +16,8 @@ This concern not only lies in the immediate impact on the quality of life of rur
 Motivated by the desire to address this challenge, I decided to join the Re-Source project, a **multidisciplinary team committed to confronting this circumstance from various perspectives**, aiming to raise awareness about the issue, fostering critical thinking to devise sustainable and effective solutions.
 
 ![ReSource](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/71bfa9da-194f-4973-82f8-6b55720c7750)
+![resource](https://github.com/XReverte/ReSource_Colaboration/assets/100844285/d4c442d3-3f12-4329-9384-7ab643474f08)
+
 
 ## Goals
 The Re-Source project aims to create a **space for meeting and exchange** for all those interested in addressing the phenomenon of rural depopulation. Through a series of conferences led by experts from different fields, the project seeks to provide a comprehensive understanding of the issue, fostering debate and active participation among attendees.
