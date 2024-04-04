@@ -1,4 +1,4 @@
-# ReSource_Colaboration
+# ReSource Colaboration: Awareness od Rural Depopulation
 
 ## Table of contents
 - README.md --> Project motivation | Goals | Methodology | Results | Conclussions | Limitations | Future Work | Contributions | Tools
